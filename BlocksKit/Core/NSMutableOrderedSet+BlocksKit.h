@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BKGenerics.h"
 
 /** Block extensions for NSMutableOrderedSet.
 
@@ -18,7 +19,7 @@
 
  @see NSOrderedSet(BlocksKit)
  */
-@interface NSMutableOrderedSet< ObjectType> (BlocksKit)
+@interface NSMutableOrderedSet _gsingle(ObjectType) (BlocksKit)
 
 /** Filters a mutable ordered set to the objects matching the block.
 

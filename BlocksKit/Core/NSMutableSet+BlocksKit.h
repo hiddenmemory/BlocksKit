@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BKGenerics.h"
 
 /** Block extensions for NSMutableSet.
 
@@ -18,7 +19,7 @@
 
  @see NSSet(BlocksKit)
  */
-@interface NSMutableSet<ObjectType> (BlocksKit)
+@interface NSMutableSet _gsingle(ObjectType) (BlocksKit)
 
 /** Filters a mutable set to the objects matching the block.
 

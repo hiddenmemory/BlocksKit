@@ -5,6 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CGBase.h>
+#import "BKGenerics.h"
 
 /** Block extensions for NSArray.
 
@@ -23,7 +24,7 @@
  @see NSDictionary(BlocksKit)
  @see NSSet(BlocksKit)
  */
-@interface NSArray<ObjectType> (BlocksKit)
+@interface NSArray _gsingle(ObjectType) (BlocksKit)
 
 /** Loops through an array and executes the given block with each object.
 

@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BKGenerics.h"
 
 /** Block extensions for NSMutableDictionary.
 
@@ -18,7 +19,7 @@
 
  @see NSDictionary(BlocksKit)
  */
-@interface NSMutableDictionary<KeyType, ObjectType> (BlocksKit)
+@interface NSMutableDictionary _gpair(KeyType, ObjectType) (BlocksKit)
 
 /** Filters a mutable dictionary to the key/value pairs matching the block.
 

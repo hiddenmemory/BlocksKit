@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BKGenerics.h"
 
 /** Block extensions for NSMutableArray.
 
@@ -18,7 +19,7 @@
 
  @see NSArray(BlocksKit)
  */
-@interface NSMutableArray<ObjectType> (BlocksKit)
+@interface NSMutableArray _gsingle(ObjectType) (BlocksKit)
 
 /** Filters a mutable array to the objects matching the block.
 

@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BKGenerics.h"
 
 /** Block extension for NSDictionary.
 
@@ -19,7 +20,7 @@
  @see NSArray(BlocksKit)
  @see NSSet(BlocksKit)
  */
-@interface NSDictionary<KeyType, ObjectType> (BlocksKit)
+@interface NSDictionary _gpair(KeyType, ObjectType) (BlocksKit)
 
 /** Loops through the dictionary and executes the given block using each item.
 

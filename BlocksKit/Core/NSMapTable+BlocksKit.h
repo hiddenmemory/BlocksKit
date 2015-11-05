@@ -4,8 +4,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BKGenerics.h"
 
-@interface NSMapTable<KeyType, ObjectType> (BlocksKit)
+@interface NSMapTable _gpair(KeyType, ObjectType) (BlocksKit)
 
 /** Loops through the maptable and executes the given block using each item.
 
