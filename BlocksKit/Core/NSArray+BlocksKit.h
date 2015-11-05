@@ -24,7 +24,13 @@
  @see NSDictionary(BlocksKit)
  @see NSSet(BlocksKit)
  */
-@interface NSArray _gsingle(ObjectType) (BlocksKit)
+
+#if __has_feature(objc_generics)
+@interface NSArray<ObjectType> (BlocksKit)
+#else
+#define ObjectType id
+@interface NSArray (BlocksKit)
+#endif
 
 /** Loops through an array and executes the given block with each object.
 
@@ -212,3 +218,7 @@
 - (BOOL)bk_corresponds:(NSArray<ObjectType> *)list withBlock:(BOOL (^)(ObjectType obj1, ObjectType obj2))block;
 
 @end
+
+#ifdef ObjectType
+#undef ObjectType
+#endif
