@@ -4,7 +4,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BKGenerics.h"
 
 /** Block extensions for NSSet.
 
@@ -22,7 +21,7 @@
  @see NSArray(BlocksKit)
  @see NSDictionary(BlocksKit)
  */
-@interface NSSet _gsingle(ObjectType) (BlocksKit)
+@interface NSSet <ObjectType> (BlocksKit)
 
 /** Loops through a set and executes the given block with each object.
 

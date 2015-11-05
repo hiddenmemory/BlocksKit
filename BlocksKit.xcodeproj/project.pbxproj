@@ -304,7 +304,6 @@
 		43CE09E21986618700F91137 /* BlocksKit+QuickLook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlocksKit+QuickLook.h"; sourceTree = "<group>"; };
 		43CE09E319866C2300F91137 /* QLPreviewControllerBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLPreviewControllerBlocksKitTest.m; sourceTree = "<group>"; };
 		43CE09E619866D0600F91137 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuickLook.framework; sourceTree = DEVELOPER_DIR; };
-		5A4167E5CB97B02C2C54784E /* BKGenerics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKGenerics.h; sourceTree = "<group>"; };
 		A3E3ED9919F797A3008E0ECB /* NSMapTable+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMapTable+BlocksKit.h"; sourceTree = "<group>"; };
 		A3E3ED9A19F797A3008E0ECB /* NSMapTable+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMapTable+BlocksKit.m"; sourceTree = "<group>"; };
 		A3E3EDA019F798C6008E0ECB /* NSMapTableBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMapTableBlocksKitTest.m; sourceTree = "<group>"; };
@@ -710,7 +709,6 @@
 				DBFB09A9184DC7B000F37EEE /* NSSet+BlocksKit.m */,
 				DBFB09AA184DC7B000F37EEE /* NSTimer+BlocksKit.h */,
 				DBFB09AB184DC7B000F37EEE /* NSTimer+BlocksKit.m */,
-				5A4167E5CB97B02C2C54784E /* BKGenerics.h */,
 			);
 			path = Core;
 			sourceTree = "<group>";

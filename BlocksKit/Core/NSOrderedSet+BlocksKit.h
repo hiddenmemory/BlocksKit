@@ -4,7 +4,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BKGenerics.h"
 
 /** Block extensions for NSOrderedSet.
 
@@ -22,7 +21,7 @@
  @see NSArray(BlocksKit)
  @see NSSet(BlocksKit)
  */
-@interface NSOrderedSet _gsingle(ObjectType) (BlocksKit)
+@interface NSOrderedSet <ObjectType> (BlocksKit)
 
 /** Loops through an ordered set and executes the given block with each object.
 
